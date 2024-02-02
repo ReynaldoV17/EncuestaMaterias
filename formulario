@@ -1,0 +1,88 @@
+<! DOCTYPE html>
+<html lang="es">
+<head> <title>Formulario</title>
+    </style>
+</head>
+<body>
+<img src="C:\Users\Meño\OneDrive\Escritorio\Imagen de WhatsApp 2024-01-31 a las 10.00.29_10f01cf7.jpg" height="150" width="150" align="left">
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+ <div class="container">
+        <h2>6-B TPIN</h2>
+  <font size="5">   <p>Contesta las preguntas</p>
+
+<form method="post" action="mailto:email@exemple.com" >
+
+	Nombre: <input type="text" name="Name" size="15" maxlength="15" />
+	Apellido: <input type="text" name="Last_name" size="25" maxlength="25" />
+	
+	
+
+
+
+<p>1.¿Como se llama tu maestro?<br><p>
+<input type="text" size=60>
+<p>2.¿Te gusta tu materia?<br>
+<select name="entrada" size=1>
+<option value"si">Si</option>
+<option value"no">No</option>
+</select></p>
+
+<p> 3.¿Qué es lo que mas te gusta de la materia?<br>
+<input type="text" size=100>
+
+
+<p> 4.¿Que cambiarias de esta clase?<br>
+<input type="text" size=60>
+
+<p> 5.¿Crees que estas aprendiendo de esta clase y cuanto?<br>
+<select name="entrada" size=1>
+<option value"si">Si</option>
+<option value"no">So</option>
+</select></p>
+
+<p>6.¿Qué le recomendarias a tu profe para mejorar su clase?<br>
+<input type="text" size=60>
+</select></p>
+
+
+<p>7.¿Como clasificarias la dificultad de esta materia? <br>
+<select name="entrada" size=1>
+<option value"si">Dificil</option>
+<option value"no">Justo</option>
+<option value"no">Nada complicada</option>
+</select></p>
+
+
+<p>8.¿Cómo calificarías la cantidad de trabajo requerido para esta clase?<br>
+<select name="entrada" size=1>
+<option value"si">Exagerada</option>
+<option value"no">Justa </option>
+<option value"no">Poca</option>
+</select></p>
+
+
+<p>9.¿El profesor los apoya cuando no entienden algo sobre la materia?<br>
+<select name="entrada" size=1>
+<option value"si">Siempre</option>
+<option value"no">Aveces </option>
+<option value"no">Nunca</option>
+</select></p>
+
+
+<p>10.¿Recomendarías esta clase a otros estudiantes?<br>
+<select name="entrada" size=1>
+<option value"si">Si</option>
+<option value"no">No</option>
+</select></p>
+
+ <center> <input type="submit" value="Enviar por correo" /> </center>
+
+
+
+</form>
+
+</body>
+</html>
